@@ -8,3 +8,7 @@ Changes to the code will be updated live, changes to the database can be made fr
   
   <code>python manage.py makemigrations</code>
   <code>python manage.py migrate</code>
+
+Look in the front end folder for instructions on running React
+
+Most of the dependencies should be dealt with by the virtual env, but you'll need Python and likely Node.js
