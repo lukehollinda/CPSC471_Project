@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+  hr.solid{
+  border-top: 3px solid #bbb;
+}
+
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+p.large {
+  font-size: 30px;
+}
+
+</style>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Django REST with React</title>
+</head>
+<body>
+  <p class="large"> Search Page </p>
+<div id="viewCities">
+    <!-- React will load here -->
+</div>
+<hr class="solid"/>
+<div id= "viewNeighborhoods">
+  <!-- React will load here -->
+</div>
+<hr class="solid"/>
+<div id= "landSearch">
+  <!-- React will load here -->
+</div>
+<hr class="solid"/>
+<div id= "buildingSearch">
+  <!-- React will load here -->
+</div>
+
+
+</body>
+{% load static %}
+<script src="{% static "frontend/main.js" %}"></script>
+</html>
